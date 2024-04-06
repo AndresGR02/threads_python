@@ -1,7 +1,10 @@
 # Laboratorio #3 - Hilos en Python
 
-Con el código inicial, se puede observar un error a la hora de ordenar los elementos. La
-razón de esto se debe a la falta de agregar el comando de sort al finalizar el ordenamiento de 
+Con el código inicial, se puede observar un error a la hora de ordenar los elementos. 
+
+Vector ordenado final: [9, 12, 29, 34, 50, 52, 80, 82, 84, 86, 12, 20, 32, 42, 52, 68, 69, 69, 73, 73, 11, 13, 25, 31, 48, 78, 83, 88, 90, 95, 5, 10, 11, 31, 40, 66, 82, 88, 95, 100, 13, 23, 28, 39, 43, 50, 65, 71, 74, 92, 1, 2, 11, 14, 32, 39, 43, 58, 84, 87, 4, 19, 74, 76, 85, 89, 94, 95, 96, 100, 2, 12, 19, 23, 40, 52, 57, 64, 85, 100, 30, 36, 40, 40, 41, 44, 45, 58, 75, 84, 8, 12, 16, 38, 48, 64, 81, 85, 99, 100]
+
+La razón de esto se debe a la falta de agregar el comando de sort al finalizar el ordenamiento de 
 los subvectores para ordenar el vector final. Por lo que se hizo la modificación de la siguiente manera: 
 
 ```python
